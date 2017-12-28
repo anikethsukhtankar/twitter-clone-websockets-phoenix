@@ -1,0 +1,13 @@
+{application,phoenix_gen_socket_client,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"Socket client behaviour for phoenix channels."},
+              {modules,['Elixir.Phoenix.Channels.GenSocketClient',
+                        'Elixir.Phoenix.Channels.GenSocketClient.Serializer',
+                        'Elixir.Phoenix.Channels.GenSocketClient.Serializer.GzipJson',
+                        'Elixir.Phoenix.Channels.GenSocketClient.Serializer.Json',
+                        'Elixir.Phoenix.Channels.GenSocketClient.TestSocket',
+                        'Elixir.Phoenix.Channels.GenSocketClient.Transport',
+                        'Elixir.Phoenix.Channels.GenSocketClient.Transport.WebSocketClient']},
+              {registered,[]},
+              {vsn,"2.0.0"},
+              {extra_applications,[logger]}]}.
