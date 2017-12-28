@@ -1,0 +1,2 @@
+# twitter-clone-websockets-phoenix
+The goal of this project is to use the Phoenix web framework to implement a WebSocket interface to the Twitter Clone and client tester/simulator built in Elixir. The problem statement is to implement a JSON based API that represents all messages and their replies (including errors), design an engine using Phoenix and multiple clients to implement the WebSocket interface. 
